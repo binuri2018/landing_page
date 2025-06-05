@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Hero from './components/Hero'
 
 function App() {
   return (
-    <div>
+    <div className="App">
+      <Hero />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
