@@ -22,6 +22,7 @@
   list-style: none;
   display: flex;
   gap: 2rem;
+  margin-right: 70px;
 }
 
 .navLinks li a {
