@@ -5,7 +5,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Services from './components/Services'
 import Footer from './components/Footer'
-import Blog from './components/Blog'
+import Blog from './components/Blogs'
 
 function App() {
   return (
