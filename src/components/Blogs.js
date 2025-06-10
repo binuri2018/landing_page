@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Blog.module.css'
+import styles from './Blogs.module.css'
 
 const blogPosts = [
   {
