@@ -1,7 +1,7 @@
 import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
-import bgImage from '../assets/hero-bg.jpg' // Make sure image exists in this path
+import bgImage from '../Assets/hero-bg.png' 
 
 const RotatingBox = () => (
   <mesh rotation={[0.5, 0.5, 0]}>
@@ -17,7 +17,6 @@ const Hero = () => {
         height: '100vh',
         position: 'relative',
         backgroundImage: `url(${bgImage})`,
-        backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
       }}
@@ -37,8 +36,8 @@ const Hero = () => {
           fontSize: '2rem',
         }}
       >
-        <h1>BlackWhite Studio</h1>
-        <p>Bringing Ideas to Life in Motion.</p>
+        <h1></h1>
+        <p></p>
       </div>
     </div>
   )
