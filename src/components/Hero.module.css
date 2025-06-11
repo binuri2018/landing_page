@@ -1,0 +1,14 @@
+.heroContainer {
+  height: 100vh;
+  position: relative;
+  background-image: url('../Assets/hero-bg.png');
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.heroText {
+  position: absolute;
+  top: 20%;
+  color: #fff;
+  font-size: 2rem;
+}
