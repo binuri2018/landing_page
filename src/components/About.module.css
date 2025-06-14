@@ -1,31 +1,22 @@
 .aboutSection {
-  background-color: #0f172a;
-  color: #ffffff;
-  padding: 100px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #0d0d0d;
+  color: #fff;
 }
 
-.container {
+.content {
   max-width: 900px;
-  text-align: center;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
 }
 
-.title {
+.content h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #4ade80;
 }
 
-.description {
-  font-size: 1.1rem;
-  line-height: 1.8;
+.content p {
   margin-bottom: 1.2rem;
-  color: #e2e8f0;
-}
-
-.highlight {
-  color: #4ade80;
-  font-weight: 600;
 }
