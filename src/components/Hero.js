@@ -1,7 +1,7 @@
 import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
-import bgImage from '../assets/hero-bg.jpg' // Make sure image exists in this path
+import styles from './Hero.module.css' // import CSS module
 
 const RotatingBox = () => (
   <mesh rotation={[0.5, 0.5, 0]}>
@@ -12,33 +12,16 @@ const RotatingBox = () => (
 
 const Hero = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        position: 'relative',
-        backgroundImage: `url(${bgImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-      }}
-    >
+    <div className={styles.heroContainer}>
       <Canvas camera={{ position: [5, 5, 5] }}>
         <ambientLight intensity={0.5} />
         <directionalLight position={[2, 2, 2]} intensity={1} />
         <RotatingBox />
         <OrbitControls enableZoom={false} />
       </Canvas>
-      <div
-        style={{
-          position: 'absolute',
-          top: '20%',
-          left: '10%',
-          color: '#fff',
-          fontSize: '2rem',
-        }}
-      >
-        <h1>BlackWhite Studio</h1>
-        <p>Bringing Ideas to Life in Motion.</p>
+      <div className={styles.heroText}>
+        <h1></h1>
+        <p></p>
       </div>
     </div>
   )
