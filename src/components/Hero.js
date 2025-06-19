@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <div
       className={styles.heroContainer}
-      style={{ backgroundImage: `url(${bgImage})` }} // Use imported image here
+      style={{ backgroundImage: `url(${bgImage})` }} 
     >
       <Canvas camera={{ position: [5, 5, 5] }}>
         <ambientLight intensity={0.5} />
@@ -24,8 +24,8 @@ const Hero = () => {
         <OrbitControls enableZoom={false} />
       </Canvas>
       <div className={styles.heroText}>
-        <h1>BlackWhite Studio</h1>
-        <p>Bringing Ideas to Life in Motion.</p>
+        <h1></h1>
+        <p></p>
       </div>
     </div>
   )
