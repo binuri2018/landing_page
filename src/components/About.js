@@ -3,14 +3,20 @@ import styles from './About.module.css'
 
 const About = () => {
   return (
-    <section id="about" className={styles.aboutSection}>
-      <div className={styles.container}>
-        <h2 className={styles.title}>About Us</h2>
-        <p className={styles.description}>
-          At <span className={styles.highlight}>VisionaryTech</span>, we are passionate about pushing the boundaries of innovation. Our mission is to create immersive and interactive digital experiences using the latest in 3D and web technologies.  
+    <section className={styles.aboutSection} id="about">
+      <div className={styles.content}>
+        <h2>About BlackWhite Studio</h2>
+        <p>
+          At <strong>BlackWhite Studio</strong>, we blend technology and imagination to craft powerful animated experiences that leave a lasting impact. 
+          As a modern animation-producing IT company, our mission is to turn ideas into visual stories through cutting-edge design, 3D motion, and interactive visuals.
         </p>
-        <p className={styles.description}>
-          Whether it's crafting product showcases, building real-time visualizations, or designing captivating user interfaces, we blend creativity with cutting-edge tools like React, Three.js, and Framer Motion to bring ideas to life.
+        <p>
+          From conceptual design to immersive digital animations, we work closely with brands, startups, and creative teams to bring their visions to life. 
+          Whether it’s a product showcase, brand intro, or a full-fledged animated web experience, we make innovation look effortless.
+        </p>
+        <p>
+          With a passion for visual storytelling and deep expertise in animation technologies, 
+          BlackWhite Studio transforms the complex into the captivating — one frame at a time.
         </p>
       </div>
     </section>
@@ -18,4 +24,3 @@ const About = () => {
 }
 
 export default About
-
