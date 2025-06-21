@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Services.module.css'
-import { FaCode, FaCubes, FaRocket } from 'react-icons/fa'
+import { FaFilm, FaCube, FaMagic } from 'react-icons/fa'
 
 const Services = () => {
   return (
@@ -8,31 +8,31 @@ const Services = () => {
       <div className={styles.container}>
         <h2 className={styles.title}>Our Services</h2>
         <p className={styles.subtitle}>
-          We bring ideas to life with cutting-edge technology and creative design.
+          At BlackWhite Studio, we merge code with creativity to deliver stunning visual stories and animated tech experiences.
         </p>
 
         <div className={styles.cards}>
           <div className={styles.card}>
-            <FaCode className={styles.icon} />
-            <h3>Web Development</h3>
+            <FaFilm className={styles.icon} />
+            <h3>Animated Visuals</h3>
             <p>
-              Responsive and dynamic websites using modern frameworks like React, Next.js, and more.
+              We craft cinematic animations and brand intros that captivate audiences, using tools like After Effects, Lottie, and WebGL.
             </p>
           </div>
 
           <div className={styles.card}>
-            <FaCubes className={styles.icon} />
-            <h3>3D Experiences</h3>
+            <FaCube className={styles.icon} />
+            <h3>Interactive 3D Experiences</h3>
             <p>
-              Immersive product showcases and interactive scenes using Three.js and react-three-fiber.
+              Build immersive web environments with Three.js & react-three-fiber — perfect for product demos and storytelling.
             </p>
           </div>
 
           <div className={styles.card}>
-            <FaRocket className={styles.icon} />
-            <h3>UI/UX Design</h3>
+            <FaMagic className={styles.icon} />
+            <h3>Creative Web Development</h3>
             <p>
-              Beautiful, user-centered designs with smooth animations and responsive layouts.
+              Bespoke websites with animation-first design, combining React, Framer Motion, and next-gen performance.
             </p>
           </div>
         </div>
