@@ -18,7 +18,7 @@
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #4ade80;
+  color: #6063ba;
   font-family: 'Segoe UI', sans-serif;
 }
 
@@ -37,5 +37,5 @@
 }
 
 .navLinks li a:hover {
-  color: #4ade80;
+  color: #6063ba;
 }
