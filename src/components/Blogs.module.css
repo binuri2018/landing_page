@@ -3,6 +3,7 @@
   color: #e2e8f0;
   padding: 100px 20px;
   text-align: center;
+  background-image: linear-gradient(145deg, rgba(0, 0, 0, 0.1), rgba(30, 30, 60, 0.2));
 }
 
 .container {
@@ -11,9 +12,11 @@
 }
 
 .title {
-  font-size: 2.5rem;
-  color: #585a7b;
-  margin-bottom: 2rem;
+  font-size: 2.8rem;
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .cards {
@@ -24,23 +27,24 @@
 }
 
 .card {
-  background-color: #1e293b;
-  border-radius: 16px;
-  padding: 1.8rem 2rem;
-  max-width: 320px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  background: linear-gradient(160deg, #1e293b 0%, #2c3a59 100%);
+  border-radius: 18px;
+  padding: 2rem;
+  max-width: 330px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
+  text-align: left;
 }
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 28px rgba(0,0,0,0.5);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
 }
 
 .card h3 {
-  margin-bottom: 0.5rem;
-  color: #6063ba;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  color: #60a5fa; /* Light blue accent */
 }
 
 .date {
@@ -49,15 +53,21 @@
   margin-bottom: 1rem;
 }
 
+.card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
 .readMore {
   display: inline-block;
-  margin-top: 1rem;
-  color: #6063ba;
+  margin-top: 1.2rem;
+  color: #7dd3fc;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
 .readMore:hover {
-  color: #8186d6;
+  color: #bae6fd;
 }
