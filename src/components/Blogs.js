@@ -30,6 +30,7 @@ const Blog = () => {
     <section id="blog" className={styles.blogSection}>
       <div className={styles.container}>
 
+        <h2 className={styles.title}>Latest News & Articles</h2>
 
         <div className={styles.cards}>
           {blogPosts.map(post => (
@@ -47,3 +48,4 @@ const Blog = () => {
 }
 
 export default Blog
+
