@@ -4,22 +4,22 @@ import styles from './Blogs.module.css'
 const blogPosts = [
   {
     id: 1,
-    title: "How to Build a React Landing Page",
-    excerpt: "Learn the steps to create a stunning React landing page with animations and 3D effects.",
+    title: "Creating Cinematic Web Experiences with React",
+    excerpt: "Learn how to blend storytelling and frontend development to create stunning, animated user journeys using React and Framer Motion.",
     date: "June 5, 2025",
     link: "#"
   },
   {
     id: 2,
-    title: "Introduction to Three.js",
-    excerpt: "Explore the basics of Three.js and how to add 3D graphics to your frontend projects.",
+    title: "Getting Started with Three.js in Animation Portfolios",
+    excerpt: "A beginner-friendly guide on using Three.js to showcase animated visuals and interactive 3D elements on your portfolio website.",
     date: "May 28, 2025",
     link: "#"
   },
   {
     id: 3,
-    title: "Improving Web Performance",
-    excerpt: "Tips and tricks to make your React apps faster and more efficient.",
+    title: "Why Animation-First Design is the Future",
+    excerpt: "Explore why animation-led design principles are essential for modern websites, and how BlackWhite Studio brings them to life.",
     date: "May 15, 2025",
     link: "#"
   },
@@ -29,7 +29,8 @@ const Blog = () => {
   return (
     <section id="blog" className={styles.blogSection}>
       <div className={styles.container}>
-        <h2 className={styles.title}>Latest News & Articles</h2>
+
+
         <div className={styles.cards}>
           {blogPosts.map(post => (
             <div key={post.id} className={styles.card}>
