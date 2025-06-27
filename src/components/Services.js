@@ -23,6 +23,16 @@ const Services = () => {
     return () => observer.disconnect()
   }, [])
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact')
+    if (contactSection) {
+      contactSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      })
+    }
+  }
+
   const services = [
     {
       icon: <FaFilm />,
@@ -113,7 +123,7 @@ const Services = () => {
         <div className={`${styles.ctaSection} ${isVisible ? styles.visible : ''}`}>
           <h3>Ready to Transform Your Ideas?</h3>
           <p>Let's discuss how we can bring your vision to life with our innovative services</p>
-          <button className={styles.ctaButton}>
+          <button className={styles.ctaButton} onClick={scrollToContact}>
             Get Connected With Us
           </button>
         </div>
