@@ -11,6 +11,16 @@ const Hero = () => {
     setIsVisible(true)
   }, [])
 
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about')
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      })
+    }
+  }
+
   return (
     <div
       className={styles.heroContainer}
@@ -40,10 +50,7 @@ const Hero = () => {
             From concept to deployment, we bring your ideas to life.
           </p>
           <div className={styles.ctaContainer}>
-            <button className={styles.primaryBtn}>
-              Get Started
-            </button>
-            <button className={styles.secondaryBtn}>
+            <button className={styles.primaryBtn} onClick={scrollToAbout}>
               Learn More
             </button>
           </div>

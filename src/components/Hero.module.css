@@ -92,9 +92,7 @@
 
 .ctaContainer {
   display: flex;
-  gap: 1rem;
   justify-content: center;
-  flex-wrap: wrap;
   margin-bottom: 3rem;
 }
 
@@ -102,7 +100,7 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border: none;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   border-radius: 50px;
@@ -119,30 +117,6 @@
 }
 
 .primaryBtn:active {
-  transform: translateY(0);
-}
-
-.secondaryBtn {
-  background: transparent;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.secondaryBtn:hover {
-  background: #ffffff;
-  color: #000000;
-  transform: translateY(-2px);
-}
-
-.secondaryBtn:active {
   transform: translateY(0);
 }
 
@@ -254,8 +228,7 @@
     align-items: center;
   }
   
-  .primaryBtn,
-  .secondaryBtn {
+  .primaryBtn {
     width: 100%;
     max-width: 300px;
   }
