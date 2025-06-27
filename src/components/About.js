@@ -82,7 +82,7 @@ const About = () => {
           <h3>Ready to bring your vision to life?</h3>
           <p>Let's create something extraordinary together</p>
           <button className={styles.ctaButton}>
-            Start Your Project
+            Start Your Project With Us
           </button>
         </div>
       </div>
