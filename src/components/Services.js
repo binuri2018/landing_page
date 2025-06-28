@@ -114,7 +114,7 @@ const Services = () => {
           <h3>Ready to Transform Your Ideas?</h3>
           <p>Let's discuss how we can bring your vision to life with our innovative services</p>
           <button className={styles.ctaButton}>
-            Get a Free Consultation
+            Get Connected With Us
           </button>
         </div>
       </div>
